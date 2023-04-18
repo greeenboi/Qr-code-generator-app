@@ -57,10 +57,17 @@ class App(customtkinter.CTk):
                                                              compound="left", font=customtkinter.CTkFont(size=15, weight="bold"))
         self.navigation_frame_label.grid(row=0, column=0, padx=(20,20), pady=20)
         
+        #**my socials**
+        self.sidebar_button_1 = customtkinter.CTkButton(self.navigation_frame ,text="Github" , command=self.openweb,hover_color=("#1E5128","#1E5128"))
+        self.sidebar_button_1.grid(row=5, column=0, padx=(10,10), pady=10)
+        self.sidebar_button_2 = customtkinter.CTkButton(self.navigation_frame ,text="Support me", command=self.open1,hover_color=("#1E5128","#1E5128"))
+        self.sidebar_button_2.grid(row=6, column=0, padx=(10,10), pady=10)
+        #*****
+        
         
         self.appearance_mode_var = customtkinter.StringVar(value="Dark")        
         self.appearance_mode_menu = customtkinter.CTkOptionMenu(self.navigation_frame, values=["Light", "Dark", "System"],command=self.change_appearance_mode_event, variable=self.appearance_mode_var)
-        self.appearance_mode_menu.grid(row=6, column=0, padx=20, pady=20, sticky="s")
+        self.appearance_mode_menu.grid(row=7, column=0, padx=20, pady=20, sticky="s")
         
         #home frame
         self.home_frame = customtkinter.CTkFrame(self, corner_radius=0, fg_color="transparent")
@@ -145,6 +152,12 @@ class App(customtkinter.CTk):
         string=f"./{self.default_name.get()}.png"
         i=Image.open(string)
         i.show()
+        
+    def openweb(self):           
+        webbrowser.open("https://github.com/greeenboi") 
+    
+    def open1(self):
+        webbrowser.open("https://github.com/greeenboi")
        
     
     def change_appearance_mode_event(self, new_appearance_mode):
