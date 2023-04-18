@@ -49,7 +49,9 @@ The following features are available under the settings tab
 <ul>
 <li><h3>Automatically open the image in the system default image viewing application</h3>
 <li><h3>Change default file name</h3>
-![image](https://user-images.githubusercontent.com/118198968/232835030-f7bf5efe-3b66-4708-a478-6e02e7e2a178.png)
+
+<img src="https://user-images.githubusercontent.com/118198968/232838830-59a266a2-a4cd-4f99-b369-967de![Screenshot 2023-04-18 210041](https://user-images.githubusercontent.com/118198968/232839054-0a32e79d-5ea4-4f74-8374-2bea50ff2a5a.png)
+58f72d8.png"/>
 </ul>
 </p>
 </details>
@@ -57,8 +59,14 @@ The following features are available under the settings tab
 ***
 
 <details id=3 closed>
-<summary>Image Gallery</summary>
-
+  <summary><h1>Image Gallery</h1></summary>
+  <img src="https://user-images.githubusercontent.com/118198968/232838994-2c8d9e2c-fa82-479b-961b-fbe9a498da8d.png"/>
+  <img src="https://user-images.githubusercontent.com/118198968/232839870-e005c6a5-a5bf-4bb1-96c9-46326f5760e6.png"/>
+  <img src="https://user-images.githubusercontent.com/118198968/232839065-d2f34dce-7e23-41b5-9d3e-56bdb888aa6a.png"/>
+  <img src="https://user-images.githubusercontent.com/118198968/232839534-e129d7fc-271f-41da-a113-9f4eab534202.png"/>
+  
 </details>
+
+
 
 
