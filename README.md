@@ -55,3 +55,12 @@ The following features are available under the settings tab
 </ul>
 </p>
 </details>
+
+***
+
+<details id=3 closed>
+<summary>Image Gallery</summary>
+
+</details>
+
+
