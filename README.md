@@ -48,10 +48,8 @@ The following features are available under the settings tab
 <p>
 <ul>
 <li><h3>Automatically open the image in the system default image viewing application</h3>
--img
-
 <li><h3>Change default file name</h3>
--img
+![image](https://user-images.githubusercontent.com/118198968/232835030-f7bf5efe-3b66-4708-a478-6e02e7e2a178.png)
 </ul>
 </p>
 </details>
